@@ -163,7 +163,7 @@ function __powerline_scm_prompt {
   #not in Git repo
   [[ -z "$git_branch" ]] && return
 
-  scm_info="${SCM_GIT_CHAR}${git_branch}"
+  scm_info="${SCM_GIT_CHAR}${git_branch} "
   [[ -n "$git_dirty" ]] && color=${SCM_PROMPT_DIRTY_COLOR} || color=${SCM_PROMPT_CLEAN_COLOR}
   [[ -n "$git_behind" ]] && scm_info+="${SCM_PROMPT_BEHIND}${git_behind_count}"
   [[ -n "$git_ahead" ]] && scm_info+="${SCM_PROMPT_AHEAD}${git_ahead_count}"
