@@ -9,7 +9,8 @@
 
 PROMPT_CHAR=${POWERLINE_PROMPT_CHAR:=""}
 POWERLINE_LEFT_SEPARATOR=" "
-POWERLINE_PROMPT="last_status user_info cwd scm"
+# POWERLINE_PROMPT="last_status user_info cwd scm"
+POWERLINE_PROMPT="last_status cwd scm"
 
 USER_INFO_SSH_CHAR=" "
 USER_INFO_PROMPT_COLOR="C Bl"
